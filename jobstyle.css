@@ -7,10 +7,13 @@
     --yellowColor :#ffd723;
 
 } 
+.body{
+ background-image: url("jobsearch\ back.jpg");
+}
 .search-wrapper{
     width: 60%;
     margin: auto;
-    min-width: 300px;
+    padding-left: 20rem;
     height: 3.5rem;
     position: relative;
 
@@ -34,9 +37,9 @@
 .search-input{
     height: 100%;
     width: 100%;
-    font-size: medium;
+    font-size:medium;
     border: none;
-    font-size: medium;
+    font-size: large;
     
 }
 .search-button{
@@ -52,24 +55,39 @@
 .filter-box{ 
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
     font-size: 0.8rem;
     width: 60%;
     min-width: 300px;
-    margin: auto;
+    margin:auto ;
+   
     flex-flow: column;
 }
 .filter-dropdown{
     width: 100%;
-    border-bottom: 1px solid var(--labelColor);
+    padding: 0;
+    
+    box-sizing: border-box;
+    
     display: flex;
+    
+
+    padding-left: 22rem;
+    padding-block-start: 0;
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 0.3rem;
+    top:250px;
+    
+    position:fixed;
+   
 
 }
 .filter-select{
+    
     border: none;
-    padding: 0.2rem;
+    padding: 1rem;
+    font-size: medium;
 }
 .filter-select:hover{
     background: var(--greyColor);
