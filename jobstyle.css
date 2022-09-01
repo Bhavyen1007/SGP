@@ -7,13 +7,19 @@
     --yellowColor :#ffd723;
 
 } 
-.body{
- background-image: url("jobsearch\ back.jpg");
-}
+
+/* .jobpic{
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    background: url("jobsearchback.jpg");
+} */
+
 .search-wrapper{
     width: 60%;
     margin: auto;
-    padding-left: 20rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     height: 3.5rem;
     position: relative;
 
@@ -21,11 +27,12 @@
 .search-box{
     width: 100%;
     position: absolute;
-    background-color: var(--greyColor);
+    background-color: var(--whiteColor);
     box-shadow:rgba(2, 11, 0, 2) 0px 5px 15px ;
-     top:300% ; 
-    height: 100%;
-    width: 100%;
+     top:300% ;  
+     padding-left: 0.5rem;
+    height: 50px;
+    width: 675px;
 }
 .search-card{
     display: flex;
@@ -72,14 +79,14 @@
     display: flex;
     
 
-    padding-left: 22rem;
+    padding-left: 10rem;
     padding-block-start: 0;
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 0.3rem;
-    top:250px;
+    padding-top: 5.5rem;
     
-    position:fixed;
+    /* position:fixed; */
    
 
 }
@@ -106,3 +113,10 @@
     color: var(--whiteColor);
     cursor: pointer;
 }
+/* .jobpic1{
+    position: absolute;
+width: 452px;
+height: 277px;
+top: 375px;
+background: url("jobsearchback1.jpg");
+} */
