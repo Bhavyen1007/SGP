@@ -18,8 +18,8 @@
 .search-wrapper{
     width: 60%;
     margin: auto;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
     height: 3.5rem;
     position: relative;
 
@@ -32,7 +32,7 @@
      top:300% ;  
      padding-left: 0.5rem;
     height: 50px;
-    width: 675px;
+    width: 800px;
 }
 .search-card{
     display: flex;
@@ -79,7 +79,8 @@
     display: flex;
     
 
-    padding-left: 10rem;
+    padding-left: 16rem;
+    padding-right: 16rem;
     padding-block-start: 0;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -113,10 +114,10 @@
     color: var(--whiteColor);
     cursor: pointer;
 }
-/* .jobpic1{
+.jobpic1{
     position: absolute;
-width: 452px;
-height: 277px;
+width: 800px;
+height: 400px;
 top: 375px;
 background: url("jobsearchback1.jpg");
-} */
+} 
