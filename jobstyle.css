@@ -1,0 +1,123 @@
+:root{
+    --primaryColor : #0076de;
+    --whiteColor : #fff;
+    --blackColor :#333;
+    --greyColor :#f6f8fa;
+    --labelColor :#64b1f5;
+    --yellowColor :#ffd723;
+
+} 
+
+/* .jobpic{
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    background: url("jobsearchback.jpg");
+} */
+
+.search-wrapper{
+    width: 60%;
+    margin: auto;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    height: 3.5rem;
+    position: relative;
+
+}
+.search-box{
+    width: 100%;
+    position: absolute;
+    background-color: var(--whiteColor);
+    box-shadow:rgba(2, 11, 0, 2) 0px 5px 15px ;
+     top:300% ;  
+     padding-left: 0.5rem;
+    height: 50px;
+    width: 800px;
+}
+.search-card{
+    display: flex;
+     justify-content: space-between; 
+    height: 100%; 
+    
+
+}
+.search-input{
+    height: 100%;
+    width: 100%;
+    font-size:medium;
+    border: none;
+    font-size: large;
+    
+}
+.search-button{
+    width: 150px;
+    height: 100%;
+    background: var(--primaryColor);
+    border: none;
+    font-size: medium;
+    color: var(--whiteColor);
+    cursor: pointer;
+
+}
+.filter-box{ 
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    width: 60%;
+    min-width: 300px;
+    margin:auto ;
+   
+    flex-flow: column;
+}
+.filter-dropdown{
+    width: 100%;
+    padding: 0;
+    
+    box-sizing: border-box;
+    
+    display: flex;
+    
+
+    padding-left: 16rem;
+    padding-right: 16rem;
+    padding-block-start: 0;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    padding-top: 5.5rem;
+    
+    /* position:fixed; */
+   
+
+}
+.filter-select{
+    
+    border: none;
+    padding: 1rem;
+    font-size: medium;
+}
+.filter-select:hover{
+    background: var(--greyColor);
+}
+.filter-chosen{
+    width: 100%;
+    padding: 0.3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.chosen-card{
+    background: var(--primaryColor);
+    padding: 0.2rem 0.5rem;
+    border-radius: 20px;
+    color: var(--whiteColor);
+    cursor: pointer;
+}
+.jobpic1{
+    position: absolute;
+width: 800px;
+height: 400px;
+top: 375px;
+background: url("jobsearchback1.jpg");
+} 
