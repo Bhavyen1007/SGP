@@ -1,35 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Create Account</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito:ital@1&display=swap" rel="stylesheet">
+  <!--icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <link rel="stylesheet" href="singup.css">
   <link rel="stylesheet" href="navbar.css">
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito:ital@1&display=swap" rel="stylesheet">
-    <!--icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <title>job page</title>
-    
+
 </head>
+
 <body>
-     <!-- navbar -->
-     <nav class="navbar">
-        <h2 class="navbar-logo"><a href="index.html">Online Job Portal</a></h2>
-        <div class="navbar-menu">
-            <!-- <a href="index.html">Home</a> -->
-            <a href="job_page.html">Jobs</a>
-            <a href="Companies_page.html">Companies</a>
-            <a href="singup.html">Sign In</a>
-            <a href="Aboutus_page.html">About us</a>
+  <nav class="navbar">
+    <h2 class="navbar-logo"><a href="index.html">Online Job Portal</a></h2>
+    <div class="navbar-menu">
+      <!-- <a href="index.html">Home</a> -->
+      <a href="job_page.html">Jobs</a>
+      <a href="Companies_page.html">Companies</a>
+      <a href="singup.html">Sign In</a>
+      <a href="Aboutus_page.html">About us</a>
 
-        </div>
-        <div class="menu-toggle">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-    </nav> 
+    </div>
 
-    </body>
-    </html>
+    <div class="menu-toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+  <!-- -------------------------------------------------------------------------------------------- -->
+  <div class="container" id="container">
+    <div class="form-container sign-up-container">
+      <form action="#">
+        <h1>Create Account</h1>
+        
+        <input required type="number" placeholder="Enter OTP" />
+        
+    
+        <button>Submit</button>
+      </form>
+    </div>
+    <div class="form-container sign-in-container">
+        <!-- ---------------------------------------------------- -->
+      <form action="#">
+        <img src="locklogo.png" alt="nil" width="100">
+        <h1>Forgot password</h1>
+       
+        <input required type="email" placeholder="Email" />
+
+        <button>Send OTP</button>
+      </form>
+    </div>
+    <!-- ------------------------------------------------------------------ -->
+    
+
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1>Welcome Back!</h1>
+          <p>To keep connected with us please login with your personal info</p>
+          <button class="ghost" id="signIn">Sign In</button>
+        </div>
+        <!-- ------------------------------------------------------------ -->
+        <div class="overlay-panel overlay-right">
+          <h1>Trouble Logging In?</h1>
+         <p> Enter your email or phone number and we'll send you a link to get back into your account.</p>
+          <button class="ghost" id="signUp">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="singup.js"></script>
+</body>
+
+</html>
